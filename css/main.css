@@ -156,11 +156,13 @@ aside {
 
 /*================= About Page =================*/
 .mission {
-
+  display: flex;
+  justify-content: center;
 }
 
 .contact-section {
-
+  display: flex;
+  justify-content: center;
 }
 
 /*================== FAQ Page ==================*/
