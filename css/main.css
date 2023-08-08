@@ -128,23 +128,30 @@ footer .social-icons p {
 
 /*================= Home Page =================*/
 .hero-area {
-
+  display: flex;
+  justify-content: center;
 }
 
 aside {
-
+  display: flex;
+  justify-content: center;
 }
 
 .features {
-
+  display: flex;
+  justify-content: center;
 }
 
 .features .features-items {
-
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 
 .reviews {
-
+  display: flex;
+  justify-content: center;
 }
 
 /*================= About Page =================*/
