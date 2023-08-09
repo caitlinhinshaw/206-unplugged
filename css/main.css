@@ -89,12 +89,14 @@ textarea {
 
 .content-wrapper {
   width: 90%;
+  margin: 50px 0;
 }
 
 /*--------------- Base Header - Footer Styles ---------------*/
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -106,6 +108,7 @@ header .content-wrapper {
 
 .header-divider {
   width: 100;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -134,7 +137,7 @@ footer .content-wrapper {
 }
 
 footer .contact {
-
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -150,7 +153,7 @@ footer .social-icons p {
 }
 
 footer .copyright {
-
+  margin: 20px 0;
 }
 
 /*---------------------- Mobile Styles ----------------------*/
@@ -173,11 +176,12 @@ aside {
 }
 
 .features h2 {
-
+  margin-bottom: 60px;
 }
 
 .features article {
   width: 63%;
+  margin: 30px 0;
 }
 
 .features .features-items {
@@ -195,14 +199,16 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
+  padding: 50px 0;
 }
 
 .reviews h2 {
-
+  margin-bottom: 40px;
 }
 
 .reviews h3 {
   width: 55%;
+  margin: 20px 0;
 }
 
 
@@ -228,6 +234,15 @@ aside {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
