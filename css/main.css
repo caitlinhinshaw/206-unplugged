@@ -87,6 +87,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper {
+  width: 90%;
+}
+
 /*--------------- Base Header - Footer Styles ---------------*/
 header {
   display: flex;
@@ -100,9 +104,18 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+.header-divider {
+  width: 100;
+}
+
+header nav {
+  width: 60%;
+}
+
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 footer {
@@ -110,6 +123,18 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+footer p {
+
+}
+
+footer .content-wrapper {
+  width: 55%;
+}
+
+footer .contact {
+
 }
 
 footer .social-icons {
@@ -122,6 +147,10 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .copyright {
+
 }
 
 /*---------------------- Mobile Styles ----------------------*/
@@ -137,9 +166,18 @@ aside {
   justify-content: center;
 }
 
+/* Features */
 .features {
   display: flex;
   justify-content: center;
+}
+
+.features h2 {
+
+}
+
+.features article {
+  width: 63%;
 }
 
 .features .features-items {
@@ -149,10 +187,24 @@ aside {
   flex-flow: row wrap;
 }
 
+.features p {
+
+}
+
+/* Reviews */
 .reviews {
   display: flex;
   justify-content: center;
 }
+
+.reviews h2 {
+
+}
+
+.reviews h3 {
+  width: 55%;
+}
+
 
 /*================= About Page =================*/
 .mission {
