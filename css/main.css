@@ -369,7 +369,35 @@ aside {
       display: none;
   }
 
-  
+  /* Hero Area */
+
+  /* Aside */
+  aside .content-wrapper {
+      margin: 50px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {        
+      width: 40%;        
+      margin: 0;
+  }
+
+  /* Features */
+  .features article {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+  }
+
+  .features .features-item-description {
+      width: 50%;
+  }
+
+
 }
 
 
