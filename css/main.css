@@ -397,7 +397,34 @@ aside {
       width: 50%;
   }
 
+  /* Reviews */
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .reviews article div {
+      width: 49%;
+  }
+
+  /* Footer */
+  footer .content-wrapper {
+      width: 65%;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .contact {
+      margin-bottom: 0;
+  }
+
+  footer .copyright {
+      width: 100%;
+  }
 }
 
 
