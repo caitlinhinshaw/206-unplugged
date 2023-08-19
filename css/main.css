@@ -132,11 +132,11 @@ p {
 }
  
 img {
- 
+  width: 100%;
 }
  
 figure {
- 
+  margin: 0;
 }
  
 address {
@@ -228,6 +228,10 @@ footer .copyright {
 
 /*================= Home Page =================*/
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
 }
@@ -274,6 +278,9 @@ input[type=button] {
 
 /* Features */
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -496,6 +503,9 @@ input[type=button] {
   }
 
   /* Hero Area */
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -543,6 +553,7 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
       width: 49%;
   }
